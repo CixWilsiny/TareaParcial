@@ -1,0 +1,139 @@
+/* Fuentes externas Google */
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600&display=swap');
+
+/* Estilo global */
+* {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 1em;
+    color: #1c1c1c;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+  padding: 0px;  
+  margin: 0px;
+}
+
+header{
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    background-color: #e93f01;
+    background-image: url("images/header.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header h2{
+    text-align: center;
+    margin: 0px;
+    color:goldenrod;
+}
+
+/* Estilo título 1*/
+header h1 {
+    font-size: 3em;
+    font-family: 'Alkatra', cursive;
+    color:goldenrod;
+    margin: 0px;
+    text-align: center;
+}
+
+/* Estilo título 2*/
+h2 {
+    font-size: 1.5em;
+    color: #154686;
+}
+
+/* Página formulario */
+.registroUsuario{
+    background: #f9f2dd;
+}
+
+#txtDireccion1{
+    margin-bottom: 8px;
+}
+
+/* Página Catálogo */
+.paginaCatalogo{
+    background-color:lightgray;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Artículos */
+article{
+    border: goldenrod 2px solid;
+}
+
+/* Imágenes */
+.imgProducto{
+    width: 100%;
+}
+
+article h3{
+    margin: 6px;
+    font-weight: 500;
+    height: 90px;
+}
+
+article p{
+    margin: 10px 0px;
+}
+
+article button{
+    margin-bottom: 20px;
+    font-size: 1em;
+    padding: 6px 15px;
+}
+
+article:hover{
+    border: #e93f01 1px dotted;
+}
+
+.precioOriginal{
+    text-decoration: line-through;
+}
+
+.precioDescuento{
+    color:goldenrod;
+    font-weight: 500;
+}
+
+.precioFinal{
+    font-weight: 700;
+}
+
+/* Carrito vacío */
+#carritoVacio{
+    height: 300px;
+}
+
+/* Pie de página */
+footer{
+    background: #0f0300;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Estilos de la página recibido */
+
+div.recibido{
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    border: #e93f01 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Contacto WhatsApp */
+#contactoWhatApp{
+    width: 64px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
